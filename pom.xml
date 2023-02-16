@@ -20,6 +20,7 @@
         <module>inventory-service</module>
         <module>oerder-service</module>
         <module>eureka-server</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>
