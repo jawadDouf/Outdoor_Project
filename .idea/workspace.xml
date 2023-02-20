@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ce4deac-a4b1-474f-bcb5-8fe6ae284b33" name="Changes" comment="Create the routing for the product service">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oerder-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oerder-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/productService/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productService/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/productService/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productService/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/productService/payload/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productService/payload/ProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/example/productService/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productService/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="0ce4deac-a4b1-474f-bcb5-8fe6ae284b33" name="Changes" comment="add order service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +154,7 @@
       <workItem from="1676542617639" duration="211000" />
       <workItem from="1676542846793" duration="95000" />
       <workItem from="1676542964359" duration="7978000" />
-      <workItem from="1676884320290" duration="4658000" />
+      <workItem from="1676884320290" duration="4872000" />
     </task>
     <task id="LOCAL-00001" summary="Intilize the microservices archetecture">
       <created>1676542218617</created>
@@ -194,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676555679967</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add order service">
+      <created>1676902393633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676902393633</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +202,7 @@
     <MESSAGE value="Configure eureka server" />
     <MESSAGE value="Initialise the gateway" />
     <MESSAGE value="Create the routing for the product service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create the routing for the product service" />
+    <MESSAGE value="add order service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add order service" />
   </component>
 </project>
