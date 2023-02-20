@@ -54,10 +54,10 @@ public class ProductService {
     }
 
     //create image in database
-    public String createImage(ProductImage productImage) throws ExecutionException, InterruptedException {
-        Firestore db = FirestoreClient.getFirestore();
-        ApiFuture<WriteResult> future = db.collection("productImages").document(productImage.getImage()).set(productImage);
-        return future.get().getUpdateTime().toString();
-    }
+//    public String createImage(ProductImage productImage) throws ExecutionException, InterruptedException {
+//        Firestore db = FirestoreClient.getFirestore();
+//        ApiFuture<WriteResult> future = db.collection("productImages").document(productImage.getImage()).set(productImage);
+//        return future.get().getUpdateTime().toString();
+//    }
 
 }

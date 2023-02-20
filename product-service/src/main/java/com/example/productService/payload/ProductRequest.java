@@ -24,11 +24,11 @@ public class ProductRequest {
 
     private ProductImage productImage;
 
-    public Product toProduct(){
-        return Product.builder()
-                .name(name)
-                .price(price)
-                .build();
-    }
+//    public Product toProduct(){
+//        return Product.builder()
+//                .name(name)
+//                .price(price)
+//                .build();
+//    }
 
 }

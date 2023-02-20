@@ -2,7 +2,7 @@ services:
   db:
     image: mysql:8.0
     environment:
-      MYSQL_DATABASE: products_db
+      MYSQL_DATABASE: outdoor
       MYSQL_ROOT_PASSWORD: password
     ports:
       - 3306:3306
