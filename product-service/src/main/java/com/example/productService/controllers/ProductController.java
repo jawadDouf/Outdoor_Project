@@ -35,16 +35,16 @@ public class ProductController {
     }
 
     @PostMapping()
-    public ResponseEntity<?> saveProduct(@RequestBody ProductRequest productRequest){
+    public ResponseEntity<?> saveProduct(@RequestBody Product productRequest){
         try {
             //save product to database
-            productService.save(productRequest.toProduct());
+            productService.save(productRequest);
             //Add image to database
-            try {
-                productService.createImage(productRequest.getProductImage());
-            } catch (Exception e) {
-                throw new BadRequestException("Product image not saved");
-            }
+//            try {
+//                productService.createImage(productRequest.getProductImage());
+//            } catch (Exception e) {
+//                throw new BadRequestException("Product image not saved");
+//            }
         }catch (Exception e){
             throw new BadRequestException("Product not saved");
         }

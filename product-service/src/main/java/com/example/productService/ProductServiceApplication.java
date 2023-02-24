@@ -22,13 +22,13 @@ public class ProductServiceApplication {
 
 
 
-		FileInputStream serviceAccount =  new FileInputStream("C:\\Users\\YC\\IdeaProjects\\Briefs deuxiéme année Youcode-Backend\\productService\\src\\main\\resources\\firebaseKey.json");
-
-		FirebaseOptions options = new FirebaseOptions.Builder()
-				.setCredentials(GoogleCredentials.fromStream(serviceAccount))
-				.build();
-
-		FirebaseApp.initializeApp(options);
+//		FileInputStream serviceAccount =  new FileInputStream("C:\\Users\\YC\\IdeaProjects\\Briefs deuxiéme année Youcode-Backend\\productService\\src\\main\\resources\\firebaseKey.json");
+//
+//		FirebaseOptions options = new FirebaseOptions.Builder()
+//				.setCredentials(GoogleCredentials.fromStream(serviceAccount))
+//				.build();
+//
+//		FirebaseApp.initializeApp(options);
 
 		SpringApplication.run(ProductServiceApplication.class, args);
 	}
