@@ -20,6 +20,7 @@ import java.util.concurrent.ExecutionException;
 
 @RestController
 @RequestMapping("/api/products")
+@CrossOrigin(origins = "localhost:8080")
 public class ProductController {
 
 
@@ -55,6 +56,7 @@ public class ProductController {
     public ResponseEntity<Product> getProductById(@PathVariable long id){
 
         try {
+            System.out.println("ProductController.getProductById");
             return new ResponseEntity<>(productService.getOneProduct(id),HttpStatus.OK);
         }catch (Exception e){
             throw new NotFoundException("Product not found");
